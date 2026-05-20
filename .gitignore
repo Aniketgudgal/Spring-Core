@@ -1,0 +1,41 @@
+# Eclipse Files
+.metadata/
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+
+# Maven Target Folder
+target/
+
+# Compiled Java Files
+*.class
+
+# Log Files
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Tomcat Files
+Servers/
+
+# Temporary Files
+tmp/
+temp/
+
+# Build Files
+bin/
+
+# Java Package Files
+*.jar
+*.war
+*.ear
+
+.sonarlint
