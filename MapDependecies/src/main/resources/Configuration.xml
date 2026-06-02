@@ -4,10 +4,18 @@
 	<bean id="student" class="com.dependencies.Student">
 		<property name="data">
 			<map>
-				<entry key= "1" value= "aniket"/>
-				<entry key = "2" value = "Shivam"/>
-				<entry key = "3" value = "Gokul"/>
+				<entry key="1" value="aniket" />
+				<entry key="2" value="Shivam" />
+				<entry key="3" value="Gokul" />
 			</map>
 		</property>
+	</bean>
+	<bean id="emp" class="com.dependencies.Employee">
+		<constructor-arg>
+			<map>
+				<entry key = "1" value = "aniket"/>
+				<entry key = "2" value = "Shivam"/>
+			</map>
+		</constructor-arg>
 	</bean>
 </beans>
