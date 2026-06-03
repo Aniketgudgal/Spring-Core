@@ -10,4 +10,14 @@
 	<bean id = "student" class = "com.autowireDepByType.Student" autowire = "byType">
 		<property name = "rollNo" value = "15"/>
 	</bean>
+	
+	<bean id = "engine" class = "com.AutoWireByName.Engine">
+		<property name = "id" value = "12"/>
+		<property name = "name" value = "Mahindra"/>
+		<property name = "capacity" value = "6000"/>
+	</bean>
+	
+	<bean id = "car" class = "com.AutoWireByName.Car" autowire = "byName">
+		<property name = "color" value = "white"/>
+	</bean>
 </beans>
