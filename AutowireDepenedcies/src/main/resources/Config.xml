@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<bean id = "person" class = "com.autowireDepByType.Person">
+		<property name = "id" value = "1"/>
+		<property name = "name" value = "aniket"/>
+		<property name = "age" value = "20"/>
+	</bean>
+	<bean id = "student" class = "com.autowireDepByType.Student" autowire = "byType">
+		<property name = "rollNo" value = "15"/>
+	</bean>
+</beans>
