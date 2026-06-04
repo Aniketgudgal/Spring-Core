@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 import lombok.Getter;
 import lombok.Setter;
 
+// compenet annotation is used to configuration of bean id
 @Component("emp")
 @Getter
 @Setter
