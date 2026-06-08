@@ -1,5 +1,6 @@
 package com.LifeCycle.Annotation;
 
+import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
 import jakarta.annotation.PostConstruct;
@@ -10,6 +11,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @Component("emp")
+@Lazy
 public class Employee {
 	
 	public Employee() {
