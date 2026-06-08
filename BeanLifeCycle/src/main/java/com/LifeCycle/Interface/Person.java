@@ -8,8 +8,6 @@ import org.springframework.stereotype.Component;
 @Component("p")
 @Lazy
 public class Person implements InitializingBean, DisposableBean{
-
-	
 	public Person() {
 		super();
 		System.out.println("Initializing Constructor");
